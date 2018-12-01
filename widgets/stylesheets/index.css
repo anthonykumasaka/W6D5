@@ -1,5 +1,7 @@
 body {
-  background-color: red;
+  background-color: grey;
+  /* background-color: black; */
+  /* background-image: url(https://elhombreblandengue.files.wordpress.com/2011/11/miscellaneous-89055.jpeg); */
 }
 
 .clock-module{
@@ -9,16 +11,37 @@ body {
 
 .time {
   position: absolute;
-  background-color: orange;
+  background-color: lightblue;
   width: 250px;
   top: 50px;
   padding: 20px;
   border-radius: 5px;
   border: 1px solid black;
+  font-family: courier;
+  
 }
 
 .clock {
+  color: white; 
   position: absolute;
-  font-family: sans-serif;
+  font-family: courier;
 }
 
+.date {
+  position: absolute;
+  background-color: lightblue;
+  width: 250px;
+  top: 200px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: courier;
+  
+}
+
+.date-head {
+  color: white; 
+  position: absolute;
+  top: 150px; 
+  font-family: courier;
+}
